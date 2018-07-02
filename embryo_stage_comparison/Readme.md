@@ -1,8 +1,8 @@
 **1. Raw input files**
 
-Association files, imported from the PO subversion repository revision
-1772
-(<http://palea.cgrb.oregonstate.edu/viewsvn/Poc/trunk/associations/?pathrev=1772>):
+Association files, imported from the Planteome subversion repository revision
+412
+(<http://planteome.org/svn/po-associations/?pathrev=412>):
 
 > <span id="po_temporal_gene_arabidopsis_tair.assoc"
 > class="anchor"></span>po\_temporal\_gene\_arabidopsis\_tair.assoc<span
