@@ -223,7 +223,7 @@ The results are summarized in
 
 > Overlap\_summary.xlsx
 
-**5. Create non-overlapping sets of genes between stages **
+**5. Create non-overlapping sets of genes between stages**
 
 To facilitate comparisons among sets of genes, we performed all pairwise
 comparisons using <http://nemates.org/MA/progs/Compare.html> among
@@ -380,11 +380,11 @@ comparison results were saved as:
 
 **7.2 Intrerspecific comparison**
 
-Using the non-overlapping sets of genes generated in set 5 above, we
+Using the non-overlapping sets of genes generated in step 5 above, we
 used AgriGO to compare the GO enrichment profile of
-match\_Atorthos\_to\_coleopnotcotyl.txt (genes that were annotated to
-that were annotated to the coleoptilar stage in maize but not the
-extended cotyledonary stage in Arabidopsis) to Atcotyl.txt (genes that
+match\_Atorthos\_to\_coleopnotcotyl.txt (genes that were annotated 
+to the coleoptilar stage in maize but not the extended
+cotyledonary stage in Arabidopsis) to Atcotyl.txt (genes that
 were annotated to the extended cotyledonary stage in Arabidopsis).
 
 **Settings:**
