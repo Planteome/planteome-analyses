@@ -316,62 +316,66 @@ Arabidopsis.
 
 **7.1 Intraspecific comparison**
 
-Using the non-overlapping sets of genes generated in set 5 above, we
+Using the non-overlapping sets of genes generated in step 5 above, we
 used AgriGO to compare the GO enrichment profile of
 Atglob\_not\_ATmature.txt (genes annotated to the globular stage but not
-the mature stage in Arabidopsis) to Atmature\_not.\_Atglob.txt (genes
+the mature stage in Arabidopsis - set 1) to Atmature\_not.\_Atglob.txt (genes
 that were annotated to the mature stage but not the globular stage in
-Arabidopsis).
+Arabidopsis - set 2).
 
 **Settings:**
 
+Analysis: Plant > Brassicaceae
+
 Analysis tool: SEA
 
-Supported species: Arabidopsis thaliana TAIR 10
+Select species: Arabidopsis thaliana
 
-Reference from selected background: Arabidopsis genome locus (TAIR 10)
+Select reference: Suggested background [TAIR genome locus (TAIR10-2017)
 
 Advanced options: PO slim
 
 **Results:**
 
-Analysis Brief Summary
+Analysis Brief Summary - set 1 - globular not mature
 ----------------------
 
-**Job ID:** 363277779 \[Useful within 7 days\]
+**Job ID:** 880565467.1 \[Useful within 7 days\]
 
-**Job Name:** AtglobNOTmature
-
-**Species:**
+**Species:** Arabidopsis thaliana
 
 **GO type:** Plant GO slim
 
-**Background/Reference:** Customized
+**GO version:** 2016
 
-**Annotated number in query list:** 1156
+**Background/Reference:** TAIR genome locus (TAIR10 2017)
 
-**Annotated number in background/reference:** 28397
+**Annotated number in query list:** 1153
 
-**Significant GO terms:** 46
+**Annotated number in background/reference:** 28362
 
-Analysis Brief Summary
+**Significant GO terms:** 41
+
+
+Analysis Brief Summary - set 2 - mature not globular
 ----------------------
 
-**Job ID:** 688842085 \[Useful within 7 days\]
+**Job ID:** 509652586.1 \[Useful within 7 days\]
 
-**Job Name:** AtmatureNOTglob
-
-**Species:**
+**Species:** Arabidopsis thaliana
 
 **GO type:** Plant GO slim
 
-**Background/Reference:** Customized
+**GO version:** 2016
 
-**Annotated number in query list:** 722
+**Background/Reference:** TAIR genome locus (TAIR10 2017)
 
-**Annotated number in background/reference:** 28397
+**Annotated number in query list:** 717 [  Download ]
 
-**Significant GO terms:** 30
+**Annotated number in background/reference:** 28362
+
+**Significant GO terms:** 37
+
 
 The results above were then used in the AgriGO tool SEACOMPARE, and the
 comparison results were saved as:
@@ -382,7 +386,7 @@ comparison results were saved as:
 
 Using the non-overlapping sets of genes generated in step 5 above, we
 used AgriGO to compare the GO enrichment profile of
-match\_Atorthos\_to\_coleopnotcotyl.txt (genes that were annotated 
+match\_Zm\_orthos\_to\_coleopnotcotyl.txt (genes that were annotated 
 to the coleoptilar stage in maize but not the extended
 cotyledonary stage in Arabidopsis) to Atcotyl.txt (genes that
 were annotated to the extended cotyledonary stage in Arabidopsis).
@@ -397,50 +401,75 @@ Reference from selected background: Arabidopsis genome locus (TAIR 10)
 
 Advanced options: PO slim
 
-**Results: **
+**Results:**
 
-Analysis Brief Summary
+Analysis Brief Summary - set 3A - coleoptile not cotyledonary - Maize Genemodel IDS
 ----------------------
 
-**Job ID:** 250031567 \[Useful within 7 days\]
+**Job ID:** 471529014.1 \[Useful within 7 days\]
 
 **Job Name:** coleopnotcotyl
 
-**Species:**
+**Species:** Zea mays
 
 **GO type:** Plant GO slim
 
-**Background/Reference:** Customized
+**GO version:** 2010
+
+**Background/Reference:** locus ID v3.30 \(Gramene Release 50\)
+
+**Annotated number in query list:** 191
+
+**Annotated number in background/reference:** 25864
+
+**Significant GO terms:** 2
+
+Analysis Brief Summary - set 3B - coleoptile not cotyledonary - Arabidopsis Gene IDS
+----------------------
+
+**Job ID:** 747741263.1 \[Useful within 7 days\]
+
+**Species:** Arabidopsis thaliana
+
+**GO type:** Plant GO slim
+
+**GO version:** 2016
+
+**Background/Reference:** TAIR genome locus \(TAIR10 2017\)
 
 **Annotated number in query list:** 267
 
-**Annotated number in background/reference:** 28397
+**Annotated number in background/reference:** 28362
 
-**Significant GO terms:** 14
+**Significant GO terms:** 15 
 
-Analysis Brief Summary
+Analysis Brief Summary - set 4 - Arabidopsis, cotyledonary stage
 ----------------------
 
-**Job ID:** 900997977 \[Useful within 7 days\]
+**Job ID:** 394086933.1 \[Useful within 7 days\]
 
 **Job Name:** Atcotyl
 
-**Species:**
+**Species:** Arabidopsis thaliana
 
 **GO type:** Plant GO slim
 
-**Background/Reference:** Customized
+**GO version:** 2016
 
-**Annotated number in query list:** 13817
+**Background/Reference:** TAIR genome locus \(TAIR10 2017\)
 
-**Annotated number in background/reference:** 28397
+**Annotated number in query list:** 13793
 
-**Significant GO terms:** 134
+**Annotated number in background/reference:** 28362
+
+**Significant GO terms:** 124
+
 
 The results above were then used in the AgriGO tool SEACOMPARE, and the
 comparison results were saved as:
 
-> Seacompare\_coleopnotcotyl\_cotyl\_all.xlsx
+> Seacompare\_zm\_coleopnotcotyl\_cotyl\_all.xlsx - using maize genemodel IDs
+> Seacompare\_at\_coleopnotcotyl\_cotyl\_all.xlsx - using Arabidopsis gene IDs
 
 File that includes just the GO terms from coleopnotcotyl:
 
@@ -459,7 +488,9 @@ Supplemental Table S3. Ortholog clusters as generated by InParanoid.
 
 Supplemental Table S4. Comparison of GO enrichment analysis for Set 1 versus Set 2 genes in Arabidopsis.
 
-Supplemental Table S5. Comparison of GO enrichment analysis across species for Set 3 and Set 4.
+Supplemental Table S5. Comparison of GO enrichment analysis across species for Set 3A and Set 4.
 
-Supplemental Table S6. List of genes or gene models annotated to only one Plant Ontology plant embryo development stage.  
+Supplemental Table S6. Comparison of GO enrichment analysis across species for Set 3B and Set 4.
+
+Supplemental Table S7. List of genes or gene models annotated to only one Plant Ontology plant embryo development stage.  
 
